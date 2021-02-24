@@ -22,9 +22,9 @@ useEffect(()=>{
 
     const handleInputChange = (event) =>{
         let {name, value} = event.target;
-        if(name === "tags"){
+        /*if(name === "tags"){
             value=value.split(",");
-        }
+        }*/
         setProduct({...product,[name]:value});
     }
     const saveProduct = () =>{
